@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ^C:\USERS\USER\DOCUMENTS\CHIHUMURA\THUTOHUB\BUILD\WINDOWS\X64\CMAKEFILES\8B07B3B55AD31E2B7B6F902AC01F81FD\FLUTTER_WINDOWS.DLL.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\USER\Downloads\flutter_windows_3.38.9-stable\flutter PROJECT_DIR=C:\Users\USER\Documents\CHIHUMURA\thutohub FLUTTER_ROOT=C:\Users\USER\Downloads\flutter_windows_3.38.9-stable\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral PROJECT_DIR=C:\Users\USER\Documents\CHIHUMURA\thutohub FLUTTER_TARGET=C:\Users\USER\Documents\CHIHUMURA\thutohub\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\USER\Documents\CHIHUMURA\thutohub\.dart_tool\package_config.json C:/Users/USER/Downloads/flutter_windows_3.38.9-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+=======
+^C:\USERS\USER\DOCUMENTS\HACKATHON\THUTOHUB\BUILD\WINDOWS\X64\CMAKEFILES\154410AD03EEBEEC3F4E775D126FB63C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\USER\Downloads\flutter_windows_3.38.9-stable\flutter PROJECT_DIR=C:\Users\USER\Documents\HACKATHON\thutohub FLUTTER_ROOT=C:\Users\USER\Downloads\flutter_windows_3.38.9-stable\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral PROJECT_DIR=C:\Users\USER\Documents\HACKATHON\thutohub FLUTTER_TARGET=C:\Users\USER\Documents\HACKATHON\thutohub\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\USER\Documents\HACKATHON\thutohub\.dart_tool\package_config.json C:/Users/USER/Downloads/flutter_windows_3.38.9-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +14,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
+<<<<<<< HEAD
 ^C:\USERS\USER\DOCUMENTS\CHIHUMURA\THUTOHUB\BUILD\WINDOWS\X64\CMAKEFILES\AC3FECC07A3957DE5B9DF68306AC74C5\FLUTTER_ASSEMBLE.RULE
+=======
+^C:\USERS\USER\DOCUMENTS\HACKATHON\THUTOHUB\BUILD\WINDOWS\X64\CMAKEFILES\257E3E4773898E64C9751D84D09C2B58\FLUTTER_ASSEMBLE.RULE
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +26,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
+<<<<<<< HEAD
 ^C:\USERS\USER\DOCUMENTS\CHIHUMURA\THUTOHUB\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+^C:\USERS\USER\DOCUMENTS\HACKATHON\THUTOHUB\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

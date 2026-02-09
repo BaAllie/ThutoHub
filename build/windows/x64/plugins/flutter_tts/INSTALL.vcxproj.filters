@@ -1,13 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\CMakeFiles\3be9a0afdacc774cdf3709da11c6192f\INSTALL_force.rule">
+=======
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\CMakeFiles\ef3453fa85bbe48eb243a2b59f4cd7de\INSTALL_force.rule">
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
+<<<<<<< HEAD
       <UniqueIdentifier>{81DA56BB-27FA-357A-BD5D-0E55031A569F}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{25447327-079E-31B1-9C55-6B01CCAB19F1}</UniqueIdentifier>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
     </Filter>
   </ItemGroup>
 </Project>

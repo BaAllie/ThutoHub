@@ -21,7 +21,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{7379AF0A-1B1C-3686-B4A4-0681DA9687C3}</ProjectGuid>
+=======
+    <ProjectGuid>{BCEDB1D4-7C28-3EC4-B741-D72135D083D1}</ProjectGuid>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -88,11 +92,19 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/runner/CMakeFiles/generate.stamp
+=======
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/USER/Documents/HACKATHON/thutohub/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/runner/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +113,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/runner/CMakeFiles/generate.stamp
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/USER/Documents/HACKATHON/thutohub/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/runner/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +134,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/runner/CMakeFiles/generate.stamp
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/USER/Documents/HACKATHON/thutohub/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/runner/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,7 +155,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -135,14 +167,24 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\ZERO_CHECK.vcxproj">
       <Project>{2EE3982D-7287-3F9A-80EA-42367A05805C}</Project>
+=======
+    <ProjectReference Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{956F5626-BB77-3FED-89FB-A5D758A95904}</Project>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\runner\thutohub.vcxproj">
       <Project>{24437BF3-B7A1-35F7-BB2D-876A11904676}</Project>
+=======
+    <ProjectReference Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\runner\thutohub.vcxproj">
+      <Project>{365CE760-45F7-3802-8255-FB60DDAD3B63}</Project>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Name>thutohub</Name>
     </ProjectReference>
   </ItemGroup>

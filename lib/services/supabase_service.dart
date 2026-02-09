@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/foundation.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
@@ -130,4 +131,86 @@ Teacher's Notes: ${lesson.teachersNote ?? 'N/A'}
       return lesson; // fallback to original
     }
   }
+=======
+import 'package:supabase_flutter/supabase_flutter.dart';
+
+// Optional: define a simple model if you want cleaner code later
+// class Lesson {
+//   final String id;
+//   final String title;
+//   final String grade;
+//   final String subject;
+//   // ... other fields
+
+//   Lesson.fromJson(Map<String, dynamic> json)
+//       : id = json['id'],
+//         title = json['title'],
+//         grade = json['grade'],
+//         subject = json['subject'];
+// }
+
+class SupabaseServiceWrapper {
+  // No need for your own _client variable – use Supabase.instance.client
+
+  static void initialize(String url, String anonKey) async {
+    await Supabase.initialize(
+      url: url,
+      anonKey: anonKey,
+      // Optional: debug: true,  // useful during dev
+      // authOptions: ... if you need custom auth flow
+    );
+  }
+
+  static SupabaseClient get client => Supabase.instance.client;
+
+  /// Fetches lessons filtered by grade and subject
+  static Future<List<Map<String, dynamic>>> fetchLessons({
+    required String grade,
+    required String subject,
+  }) async {
+    try {
+      final response = await client
+          .from('lessons')  // ← change table name if different
+          .select()         // selects all columns; or .select('id, title, content')
+          .eq('grade', grade)
+          .eq('subject', subject)
+          .order('created_at', ascending: false); // optional: sort by newest
+
+      print('Fetched ${response.length} lessons');
+      return response;
+    } on PostgrestException catch (e) {
+      print('Postgrest error: ${e.message} (code: ${e.code})');
+      if (e.code == 'PGRST116') {
+        // No rows found – that's fine, return empty list
+        return [];
+      }
+      rethrow; // or return [] / show user-friendly error
+    } catch (e) {
+      print('Unexpected error fetching lessons: $e');
+      rethrow;
+    }
+  }
+
+  // Example: If you later want to fetch a single lesson by ID
+  static Future<Map<String, dynamic>?> getLessonById(String id) async {
+    try {
+      final response = await client
+          .from('lessons')
+          .select()
+          .eq('id', id)
+          .maybeSingle(); // returns null if not found
+
+      return response;
+    } on PostgrestException catch (e) {
+      print('Error fetching lesson: ${e.message}');
+      return null;
+    }
+  }
+
+  // Add more methods as needed (insert, update, delete, realtime, auth, etc.)
+  // Example insert:
+  // static Future<void> addLesson(Map<String, dynamic> lessonData) async {
+  //   await client.from('lessons').insert(lessonData);
+  // }
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 import '../models/lesson.dart';
@@ -10,6 +11,19 @@ class LessonDetailScreen extends StatefulWidget {
   const LessonDetailScreen({
     super.key,
     required this.lesson,
+=======
+import '../lib/supabase_client.dart';
+import '../lib/gemini_service.dart';
+
+class LessonDetailScreen extends StatefulWidget {
+  final String lessonId;
+  final String geminiKey;
+
+  const LessonDetailScreen({
+    super.key,
+    required this.lessonId,
+    required this.geminiKey,
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
   });
 
   @override
@@ -17,6 +31,7 @@ class LessonDetailScreen extends StatefulWidget {
 }
 
 class _LessonDetailScreenState extends State<LessonDetailScreen> {
+<<<<<<< HEAD
   String _selectedLanguage = 'English';
   bool _isTranslating = false;
   String? _translationError;
@@ -86,12 +101,56 @@ $originalText
     } finally {
       setState(() {
         _isTranslating = false;
+=======
+  bool loading = true;
+  Map<String, dynamic>? lesson;
+  GeminiService? gemini;
+  Map<String, String> translations = {};
+
+  @override
+  void initState() {
+    super.initState();
+    gemini = GeminiService(widget.geminiKey);
+    loadLesson();
+  }
+
+  Future<void> loadLesson() async {
+    setState(() {
+      loading = true;
+    });
+    try {
+      final fetched = await SupabaseClientWrapper.fetchLessonById(widget.lessonId);
+      setState(() {
+        lesson = fetched;
+      });
+    } catch (e) {
+      print('Error loading lesson: $e');
+    } finally {
+      setState(() {
+        loading = false;
+      });
+    }
+  }
+
+  Future<void> translateConcept(String concept, String language) async {
+    if (translations[concept] != null) return;
+
+    try {
+      final result = await gemini!.translate(concept, language);
+      setState(() {
+        translations[concept] = result;
+      });
+    } catch (e) {
+      setState(() {
+        translations[concept] = 'Translation failed';
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       });
     }
   }
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.lesson.title),
@@ -292,11 +351,51 @@ $originalText
                 ),
               ),
             ],
+=======
+    if (loading) return const Scaffold(body: Center(child: CircularProgressIndicator()));
+
+    if (lesson == null) return const Scaffold(body: Center(child: Text('Lesson not found')));
+
+    final keyConcepts = List<String>.from(lesson!['key_concepts'] ?? []);
+
+    return Scaffold(
+      appBar: AppBar(title: Text(lesson!['title'] ?? 'Lesson Detail')),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView(
+          children: [
+            Text(
+              lesson!['title'] ?? '',
+              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 12),
+            Text('Learning Objective: ${lesson!['learning_objective'] ?? ''}'),
+            const SizedBox(height: 12),
+            Text('Explanation: ${lesson!['simple_explanation'] ?? ''}'),
+            const SizedBox(height: 20),
+            const Text('Key Concepts', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 12),
+            ...keyConcepts.map((concept) {
+              final translated = translations[concept] ?? '';
+              return Card(
+                margin: const EdgeInsets.symmetric(vertical: 6),
+                child: ListTile(
+                  title: Text(concept),
+                  subtitle: translated.isEmpty ? null : Text(translated),
+                  trailing: IconButton(
+                    icon: const Icon(Icons.translate),
+                    onPressed: () => translateConcept(concept, 'isiZulu'),
+                  ),
+                ),
+              );
+            }).toList(),
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
           ],
         ),
       ),
     );
   }
+<<<<<<< HEAD
 
   Widget _buildTranslatableListSection({
     required String title,
@@ -374,3 +473,6 @@ $originalText
     );
   }
 }
+=======
+}
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67

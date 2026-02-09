@@ -86,8 +86,16 @@ C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtension
 C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake
 C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake
+<<<<<<< HEAD
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/CMakeFiles/4.1.2-msvc8/CMakeCXXCompiler.cmake
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/CMakeFiles/4.1.2-msvc8/CMakeRCCompiler.cmake
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/CMakeFiles/4.1.2-msvc8/CMakeSystem.cmake
 C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/CMakeLists.txt
 C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/flutter/generated_plugins.cmake
+=======
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/CMakeFiles/4.1.2-msvc8/CMakeCXXCompiler.cmake
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/CMakeFiles/4.1.2-msvc8/CMakeRCCompiler.cmake
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/CMakeFiles/4.1.2-msvc8/CMakeSystem.cmake
+C:/Users/USER/Documents/HACKATHON/thutohub/windows/CMakeLists.txt
+C:/Users/USER/Documents/HACKATHON/thutohub/windows/flutter/generated_plugins.cmake
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\CMakeFiles\8b07b3b55ad31e2b7b6f902ac01f81fd\flutter_windows.dll.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
@@ -15,6 +16,22 @@
   <ItemGroup>
     <Filter Include="CMake Rules">
       <UniqueIdentifier>{81DA56BB-27FA-357A-BD5D-0E55031A569F}</UniqueIdentifier>
+=======
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\CMakeFiles\154410ad03eebeec3f4e775d126fb63c\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\CMakeFiles\257e3e4773898e64c9751d84d09c2b58\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{25447327-079E-31B1-9C55-6B01CCAB19F1}</UniqueIdentifier>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
     </Filter>
   </ItemGroup>
 </Project>

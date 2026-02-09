@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\runner\flutter_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -14,20 +15,46 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\generated_plugin_registrant.cc">
+=======
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\flutter_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\win32_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\generated_plugin_registrant.cc">
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\runner\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\runner\Runner.rc">
+=======
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\runner\Runner.rc">
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
+<<<<<<< HEAD
       <UniqueIdentifier>{DF59F8B5-1906-3AB3-992F-F4FE413884E6}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{356E5179-285B-3507-AB8F-28BC81ED8CA7}</UniqueIdentifier>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
     </Filter>
   </ItemGroup>
 </Project>

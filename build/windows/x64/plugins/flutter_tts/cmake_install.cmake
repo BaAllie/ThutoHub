@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/flutter/ephemeral/.plugin_symlinks/flutter_tts/windows
+=======
+# Install script for directory: C:/Users/USER/Documents/HACKATHON/thutohub/windows/flutter/ephemeral/.plugin_symlinks/flutter_tts/windows
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,6 +39,10 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
+<<<<<<< HEAD
   file(WRITE "C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/plugins/flutter_tts/install_local_manifest.txt"
+=======
+  file(WRITE "C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/flutter_tts/install_local_manifest.txt"
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/CMakeFiles/INSTALL.dir
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/CMakeFiles/ALL_BUILD.dir
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
@@ -17,3 +18,24 @@ C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/plugins/flutter_tts
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
 C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir
+=======
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/CMakeFiles/INSTALL.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/runner/CMakeFiles/thutohub.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/app_links/CMakeFiles/app_links_plugin.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/app_links/CMakeFiles/INSTALL.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/app_links/CMakeFiles/ALL_BUILD.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/flutter_tts/CMakeFiles/flutter_tts_plugin.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/flutter_tts/CMakeFiles/INSTALL.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/flutter_tts/CMakeFiles/ALL_BUILD.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
+C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67

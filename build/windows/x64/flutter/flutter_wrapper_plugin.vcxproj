@@ -18,7 +18,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{4300E184-38E1-377C-B1D8-B05D66FDF7D6}</ProjectGuid>
+=======
+    <ProjectGuid>{3F95B722-C44B-33E6-A822-B888CCAF7A55}</ProjectGuid>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -50,6 +54,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+<<<<<<< HEAD
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\flutter\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin</TargetName>
@@ -59,13 +64,28 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.lib</TargetExt>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\flutter\Release\</OutDir>
+=======
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">flutter_wrapper_plugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\Profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_plugin.dir\Profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">flutter_wrapper_plugin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\Release\</OutDir>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">flutter_wrapper_plugin.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">flutter_wrapper_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -91,10 +111,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,7 +134,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
@@ -134,10 +165,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,7 +188,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
@@ -177,10 +219,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -192,11 +241,19 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/USER/Documents/HACKATHON/thutohub/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -204,12 +261,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/USER/Documents/HACKATHON/thutohub/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -217,12 +283,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/USER/Documents/CHIHUMURA/thutohub/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/CHIHUMURA/thutohub/windows -BC:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/CHIHUMURA/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/USER/Documents/HACKATHON/thutohub/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/USER/Documents/HACKATHON/thutohub/windows -BC:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64 --check-stamp-file C:/Users/USER/Documents/HACKATHON/thutohub/build/windows/x64/flutter/CMakeFiles/generate.stamp
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -230,12 +305,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
     <ClCompile Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc" />
     <ClCompile Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc" />
@@ -244,12 +325,27 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ProjectReference Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\ZERO_CHECK.vcxproj">
       <Project>{2EE3982D-7287-3F9A-80EA-42367A05805C}</Project>
+=======
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc" />
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc" />
+    <ClCompile Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{956F5626-BB77-3FED-89FB-A5D758A95904}</Project>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\build\windows\x64\flutter\flutter_assemble.vcxproj">
       <Project>{C2ABCEB4-404A-33A1-A57A-DA48BF7C2732}</Project>
+=======
+    <ProjectReference Include="C:\Users\USER\Documents\HACKATHON\thutohub\build\windows\x64\flutter\flutter_assemble.vcxproj">
+      <Project>{B78A1855-664E-30CF-A06F-5F935FA11619}</Project>
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       <Name>flutter_assemble</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

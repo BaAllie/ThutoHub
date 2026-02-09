@@ -8,6 +8,10 @@
       "version": "1.0.0+1",
       "dependencies": [
         "flutter",
+<<<<<<< HEAD
+=======
+        "flutter_dotenv",
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
         "flutter_tts",
         "google_generative_ai",
         "supabase_flutter"
@@ -43,6 +47,16 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "flutter_dotenv",
+      "version": "6.0.0",
+      "dependencies": [
+        "flutter"
+      ]
+    },
+    {
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
       "name": "flutter_tts",
       "version": "3.8.5",
       "dependencies": [

@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\USER\Documents\CHIHUMURA\thutohub\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\CMakeLists.txt" />
+=======
+    <CustomBuild Include="C:\Users\USER\Documents\HACKATHON\thutohub\windows\flutter\ephemeral\.plugin_symlinks\app_links\windows\CMakeLists.txt" />
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

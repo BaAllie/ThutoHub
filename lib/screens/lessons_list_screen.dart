@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 import '../models/lesson.dart';
 import '../services/supabase_service.dart';
@@ -13,10 +14,27 @@ class LessonsListScreen extends StatefulWidget {
 
 class _LessonsListScreenState extends State<LessonsListScreen> {
   late Future<List<Lesson>> _lessonsFuture;
+=======
+import '../lib/supabase_client.dart';
+import '../lib/lesson_detail_screen.dart';
+
+class LessonListScreen extends StatefulWidget {
+  final String geminiKey;
+  const LessonListScreen({super.key, required this.geminiKey});
+
+  @override
+  State<LessonListScreen> createState() => _LessonListScreenState();
+}
+
+class _LessonListScreenState extends State<LessonListScreen> {
+  bool loading = true;
+  List<Map<String, dynamic>> lessons = [];
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
 
   @override
   void initState() {
     super.initState();
+<<<<<<< HEAD
     _lessonsFuture = SupabaseService.fetchLessons();
   }
 
@@ -24,11 +42,48 @@ class _LessonsListScreenState extends State<LessonsListScreen> {
     setState(() {
       _lessonsFuture = SupabaseService.fetchLessons();
     });
+=======
+    loadLessons();
+  }
+
+  Future<void> loadLessons() async {
+    setState(() {
+      loading = true;
+    });
+    try {
+      final fetched = await SupabaseClientWrapper.fetchLessons(
+        grade: 'Grade 4',
+        subject: 'Mathematics',
+      );
+      setState(() {
+        lessons = fetched;
+      });
+    } catch (e) {
+      print('Error loading lessons: $e');
+    } finally {
+      setState(() {
+        loading = false;
+      });
+    }
+  }
+
+  void navigateToLesson(Map<String, dynamic> lesson) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => LessonDetailScreen(
+          lessonId: lesson['id'] as String,
+          geminiKey: widget.geminiKey,
+        ),
+      ),
+    );
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       appBar: AppBar(
         title: const Text('Lessons List'),
       ),
@@ -119,3 +174,28 @@ class _LessonsListScreenState extends State<LessonsListScreen> {
     );
   }
 }
+=======
+      appBar: AppBar(title: const Text('Grade 4 Maths Lessons')),
+      body: loading
+          ? const Center(child: CircularProgressIndicator())
+          : lessons.isEmpty
+              ? const Center(child: Text('No lessons found'))
+              : ListView.builder(
+                  itemCount: lessons.length,
+                  itemBuilder: (context, index) {
+                    final lesson = lessons[index];
+                    return Card(
+                      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      child: ListTile(
+                        title: Text(lesson['title'] as String),
+                        subtitle: Text(lesson['learning_objective'] ?? ''),
+                        trailing: const Icon(Icons.arrow_forward_ios),
+                        onTap: () => navigateToLesson(lesson),
+                      ),
+                    );
+                  },
+                ),
+    );
+  }
+}
+>>>>>>> d0a41dcf8f6b0487a27d12e9528400beec2b0d67
