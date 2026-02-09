@@ -21,3 +21,6 @@ ThutoHub uses Gemini 3 to explain Maths concepts in vernacular languages.
 1. Clone the repo
 2. Add environment variables
 3. Run `flutter run`
+
+> ⚠️ Note: This project was initially prototyped in a different stack.
+> We pivoted to Flutter for performance, offline support, and better mobile UX.
