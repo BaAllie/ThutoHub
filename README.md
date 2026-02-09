@@ -1,19 +1,23 @@
-# ThutoHub App MVP
+# ThutoHub
 
-A simple Flutter app that connects to a Supabase backend to display lessons. Built for [Hackathon Name].
+ThutoHub is a Grade 4 Maths learning app that helps learners understand concepts in their home language using AI.
 
-## Features
-- Home screen with navigation to lessons list.
-- Lessons list fetched from Supabase.
-- Detail view for each lesson.
+## Problem
+Many South African learners struggle because content is delivered only in English.
 
-## Setup
-1. Replace Supabase URL and key in `lib/main.dart`.
-2. Run `flutter pub get`.
-3. Run `flutter run`.
+## Solution
+ThutoHub uses Gemini 3 to explain Maths concepts in vernacular languages.
+
+## Gemini Usage
+- Translates explanations
+- Simplifies concepts for primary learners
 
 ## Tech Stack
-- Flutter for frontend.
-- Supabase for backend (lessons table).
+- Flutter
+- Supabase
+- Google Gemini 3 API
 
-Submitted by [Your Name] on [Date].
+## Running the App
+1. Clone the repo
+2. Add environment variables
+3. Run `flutter run`
