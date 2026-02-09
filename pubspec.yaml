@@ -1,0 +1,23 @@
+name: thutohub
+description: A simple lessons app MVP for Hackathon.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0  # For Supabase integration
+  google_generative_ai: ^0.4.7    #For AI Backbone
+  flutter_tts: ^3.8.5
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
